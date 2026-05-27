@@ -1,0 +1,15 @@
+#pragma once
+
+// ====================================================================
+// TokenMelter - Authentication & Connection Configuration Template
+// Copy this file to "src/auth_data.h" and fill in your credentials.
+// Do NOT commit "src/auth_data.h" to version control (it is gitignored).
+// ====================================================================
+
+// OpenAI ChatGPT Access Tokens (retrieved from %USERPROFILE%\.codex\auth.json)
+#define CODEX_ACCESS_TOKEN "YOUR_CHATGPT_ACCESS_TOKEN_HERE"
+#define CODEX_ACCOUNT_ID "YOUR_CHATGPT_ACCOUNT_ID_HERE"
+
+// Wi-Fi Connection Credentials
+#define WIFI_SSID "YOUR_WIFI_SSID_HERE"
+#define WIFI_PASSWORD "YOUR_WIFI_PASSWORD_HERE"
