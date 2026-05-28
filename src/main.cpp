@@ -269,6 +269,7 @@ void setup() {
   // Turn on the backlight layer connected to pin 15
   pinMode(15, OUTPUT);
   digitalWrite(15, HIGH);
+  delay(200); // Give the display controller time to stabilize after power-on
 
   // Initialize display
   tft.init();
